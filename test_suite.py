@@ -1,7 +1,9 @@
 def test_list_is_palindromic(arr: list) -> bool:
+    assert len(arr) > 0
     assert arr == arr.reverse()
 
 def test_list_is_zig_zag(arr: list) -> bool:
+    assert len(arr) > 0
     for i in range(len(arr) - 1):
         try:
             assert(arr[i] % 2 != arr[i+1] % 2)
