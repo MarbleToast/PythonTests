@@ -19,7 +19,7 @@ Returns a list of length n that is a palindrome; i.e same
 elements in same order in both directions
 """
 def create_palindromic_list(n) -> list:
-    pass
+    return [1]*n
 
 
 """
@@ -29,7 +29,7 @@ Returns a list of length n that alternates each element between
 odd and even
 """
 def create_zig_zag_list(n) -> list:
-    pass
+    return [1,2]*(n//2)+[1]*(n%2)
 
 
 if __name__ == "__main__":
